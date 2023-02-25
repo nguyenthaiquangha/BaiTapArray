@@ -41,7 +41,7 @@ function findMin() {
             min = numberAray[i]
         }
     }
-    document.querySelector("#txtMin").innerHTML = "Số nhỏ nhất" + min;
+    document.querySelector("#txtMin").innerHTML = "Số nhỏ nhất: " + min;
 }
 
 document.querySelector("#btnMin").onclick = findMin;
